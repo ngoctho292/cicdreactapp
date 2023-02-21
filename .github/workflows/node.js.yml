@@ -27,4 +27,5 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
+        github_token: ${{ secrets.GH_ACCESS_TOKEN }}
         folder: build # The folder the action should deploy.
