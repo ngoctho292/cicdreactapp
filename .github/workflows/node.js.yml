@@ -25,6 +25,6 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Deploy
-        uses: ngoctho292/actions-gh-pages@v4
+        uses: ngTho/actions-gh-pages@v4
         with:
           folder: build # The folder the action should deploy.
