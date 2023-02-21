@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [14.x]
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -27,5 +27,5 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: ${{ secrets.GH_ACCESS_TOKEN }}
-        folder: build # The folder the action should deploy.
+        ssh-key: ${{ secrets.GH_ACCESS_TOKEN }}
+        folder: build
