@@ -6,7 +6,7 @@ const header = () => {
     return (
         <div className="header">
             <h2>
-                đây là header va iis
+              oke roi
             </h2>
             {/* <FontAwesomeIcon icon="fa-star" /> */}
             <FontAwesomeIcon icon={faEnvelope} />
