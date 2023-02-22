@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        <h3>đã thêm được branch thonn.hcm</h3>
+        <h3>đã thêm được branch thonn.hcm va footer</h3>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
