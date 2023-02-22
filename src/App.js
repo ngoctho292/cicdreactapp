@@ -5,9 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Header />
-        {/* <h2>chay oke roi</h2> */}
         <h3>đã thêm được branch thonn.hcm</h3>
         <p>
           Edit <code>src/App.js</code> and save to reload.
