@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './header';
+import Footer from './footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Footer />
       </header>
     </div>
   );
